@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--Bootstrap css-->
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"/>
+    <!--link css file-->
+    <link rel="stylesheet" href="/styles/portfolio.css" />
+     <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/00b94cff4c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!---google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700;800&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Chukwuemeka Nnani</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/work.html">Work</a>
+            <a class="nav-link active" href="/">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="content-container container">
+      <div class="content">
+        <h1 class="mb-5">Let's get in touch!</h1>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/xoqzodzq"
+              method="POST"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- your other form fields go here -->
+
+              <button type="submit" class="btn btn-branding">Send</button>
+            </form>
+          </div>
+        <h3>Email</h3>
+        <p>
+          <a href="mailto:nnaniemeka18@gmail.com"
+            >nnaniemeka18@gmail.com</a
+          >
+        </p>
+        <h3>Twitter</h3>
+        <p>
+          <a href="https://twitter.com/x_geng78825" target="_blank"> @x_geng78825</a>
+        </p>
+        <h3>Linkedin</h3>
+
+        <p>
+          <a href=" https://www.linkedin.com/in/nnani-chukwuemeka-b9097334a">
+            Chukwuemeka Nnani</a
+          >
+        </p>
+      </div>
+    </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h4>Work inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding">Contact me</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:nnaniemeka18@gmail.com" class="email-link"
+          >nnaniemeka18@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/nnani-chukwuemeka-b9097334a"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Nnaniemeka"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://twitter.com/x_geng78825"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Chukwuemeka Nnani,it is
+        <a
+          href="https://github.com/Nnaniemeka/frontend-portfolio-website.git"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
+    
+</body>
+</html>
